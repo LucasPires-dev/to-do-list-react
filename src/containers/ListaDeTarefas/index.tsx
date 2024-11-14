@@ -21,7 +21,7 @@ const ListaDeTarefa = () => {
         )
       } else if (criterio === 'status') {
         tarefasFiltradas = tarefasFiltradas.filter(
-          (item) => item.prioridade === valor
+          (item) => item.status === valor
         )
       }
 
